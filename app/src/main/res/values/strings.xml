@@ -1,3 +1,5 @@
 <resources>
-	<string name="app_name">WhistleDemo</string>
+	<string name="app_name">Whistle Demo</string>
+	<string name="issues_fragment_title">Issues</string>
+	<string name="comments_fragment_title">Comments</string>
 </resources>

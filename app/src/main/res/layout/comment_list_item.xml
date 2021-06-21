@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" >
+
+	<data>
+		<variable
+			name="comment"
+			type="com.whistle.demo.model.Comment" />
+	</data>
+
+	<LinearLayout
+		style="@style/GenericItem"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<TextView
+			style="@style/BoldItemText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@{comment.body}"
+			tools:text="Issue Text Goes Here" />
+	</LinearLayout>
+</layout>

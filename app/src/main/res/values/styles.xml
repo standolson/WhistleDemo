@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="NormalItemText">
+		<item name="android:textSize">@dimen/item_text_size</item>
+	</style>
+
+	<style name="BoldItemText" parent="@style/NormalItemText">
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="GenericItem">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/generic_item_height</item>
+		<item name="android:padding">@dimen/generic_item_margin</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:background">?android:attr/listChoiceBackgroundIndicator</item>
+	</style>
+</resources>
